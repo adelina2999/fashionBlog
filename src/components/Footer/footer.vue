@@ -1,5 +1,5 @@
-<template> 
-  <div> 
+<template>
+  <div>
     <h1>{{title}}</h1>
     <h1>{{title}}</h1>
     <h1>{{title}}</h1>
@@ -14,7 +14,7 @@
 <script>
 export default {
   name: 'Footer',
-  data() {
+  data () {
     return {
       title: 'Footer'
     }
