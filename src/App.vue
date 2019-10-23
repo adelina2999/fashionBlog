@@ -23,7 +23,7 @@ export default {
 
 <style>
 .background-img {
-  background-image:url('./assets/background.jpg');
+  /* background-image:url('./assets/background.jpg'); */
 	text-align: center;
 }
 </style>
