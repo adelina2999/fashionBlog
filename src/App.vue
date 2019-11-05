@@ -1,32 +1,23 @@
 <template>
-  <div id="app" class="background-img">
-    <Header />
-    <Layout />
-    <Calculator />
-    <Footer />
-  </div>
+  <v-app>
+    <Calculator/>
+  </v-app>
 </template>
 
 <script>
-import Calculator from './components/Calculator/calculator.vue'
-import Header from './components/Header/header.vue'
-import Footer from './components/Footer/footer.vue'
-import Layout from './components/Layout/layout.vue'
+import Calculator from './components/Calculator/calculator';
 
 export default {
-  name: 'app',
+  name: 'App',
+
   components: {
     Calculator,
-    Header,
-    Footer,
-    Layout
-  }
-}
-</script>
+  },
 
-<style>
-.background-img {
-  /* background-image:url('./assets/background.jpg'); */
-	text-align: center;
-}
-</style>
+  data () {
+    return {
+
+    }
+  }
+}; 
+</script>
