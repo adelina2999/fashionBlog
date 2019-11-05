@@ -1,8 +1,10 @@
 <template>
-  <div>
+<v-app>
+  <v-toolbar app dark>
     <h1>{{title}}</h1>
     <b-link>Go to calculator</b-link>
-  </div>
+  </v-toolbar>
+</v-app>
 </template>
 
 <script>
