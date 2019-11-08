@@ -5,7 +5,7 @@
       Hover your mouse over me for a few seconds too see when you loaded this page
     </span>
     <span v-if="seen">Now you see me</span>
-    <div id="example">
+    <div>
       <p>Original message: "{{ message }}"</p>
       <p>Computed reversed message: "{{ reversedMessage }}"</p>
     </div>
@@ -28,7 +28,6 @@ export default {
       users: []
     }
   },
-  el: '#example',
   data: {
     message: 'Hello'
   },
